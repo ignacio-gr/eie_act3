@@ -103,6 +103,8 @@ void loop() {
 
   // === MODO TEST (PARPADEO LEDS) ===
   if (modoTest) {
+    lcd.clear();
+    lcd.setCursor(0,0);
     lcd.print("MODO TEST");
     for (int i = 0; i < NUM_LEDS; i++) {
       digitalWrite(LED_START_PIN + i, (i % 2 == 0) ? HIGH : LOW);
