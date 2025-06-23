@@ -3,7 +3,7 @@
 
 ## Introducción
 
-En esta actividad se parte del trabajo desarrollado en la Actividad 2, que consistía en el diseño e implementación de un sistema de medición y actuación ambiental con sensores y actuadores integrados a una placa Arduino.
+En esta actividad se parte del trabajo desarrollado en la [Actividad 2](https://github.com/ignacio-gr/eie_act2.git), que consistía en el diseño e implementación de un sistema de medición y actuación ambiental con sensores y actuadores integrados a una placa Arduino.
 
 El sistema permitía controlar de forma automática variables como la temperatura, humedad e iluminación, mostrando sus resultados.
 
@@ -46,6 +46,7 @@ Gracias a las mejoras incorporadas, el sistema ahora cuenta con una mayor versat
 - Aumenta la confiabilidad gracias al uso de sensores redundantes.
 
 Estas mejoras transforman el proyecto de la actividad anterior en un **prototipo funcional** de un sistema inteligente aplicable, por ejemplo, en entornos de domótica.
+![](images/system_final.png)
 
 ---
 
@@ -54,4 +55,7 @@ Estas mejoras transforman el proyecto de la actividad anterior en un **prototipo
 La implementación de sistemas de control inteligente y supervisión remota ha permitido perfeccionar el proyecto inicial, dotándolo de mayor autonomía y capacidad de diagnóstico.
 
 Este tipo de sistemas son clave en aplicaciones modernas donde la eficiencia energética y el control ambiental son fundamentales.
+
+## Links
+- https://wokwi.com/projects/434551352164042753
 
