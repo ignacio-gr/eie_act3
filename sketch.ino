@@ -147,6 +147,7 @@ void loop() {
   Serial.print(hum);
   Serial.print("|L:");
   Serial.println(luz);
+  delay(500);
   
 }
 
@@ -194,6 +195,7 @@ void modoStandby() {
     digitalWrite(LED_START_PIN + i, LOW);
   }
   servo.write(90);
+  delay(500);
 }
 
 // === MENSAJE DE ERROR EN LCD ===
